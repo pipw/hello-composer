@@ -1,0 +1,17 @@
+{
+    "name": "pipw/hello-composer",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Philip Waller",
+            "email": "p.waller@uq.edu.au"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+	    "psr-4": {"pipw\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
