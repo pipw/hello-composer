@@ -10,8 +10,15 @@
         }
     ],
     "minimum-stability": "stable",
+    "repositories": [
+	    {
+		    "type": "vcs",
+		    "url": "https://github.com/pipw/hello-composer.git"
+	    }
+    ],
     "autoload": {
 	    "psr-4": {"pipw\\HelloWorld\\": "src/"}
     },
-    "require": {}
+    "require": {},
+    "version": "1.0.0"
 }
